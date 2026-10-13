@@ -67,6 +67,7 @@
   .hero-photo { flex: 1 1 380px; position: relative; min-height: clamp(420px,52vw,860px); }
   .hero-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 18%; }
   .hero-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg,#0E1116 0%,rgba(14,17,22,0) 28%), linear-gradient(0deg,#0E1116 0%,rgba(14,17,22,0) 22%); pointer-events: none; }
+  .hero-name { display: none; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(245,242,236,0.75); }
 
   /* Credenciais */
   .on-light { background: var(--ivory); color: var(--text); }
@@ -183,6 +184,17 @@
     .nav { display: none; }
     .menu-btn { display: block; }
     .site-header.open .mobile-nav { display: flex; }
+    /* Hero mobile: foto primeiro, texto sobreposto ao pé da foto */
+    .hero { flex-direction: column; }
+    .hero-photo { order: -1; flex: none; height: 46vh; min-height: 340px; }
+    .hero-photo img { object-position: center 22%; }
+    .hero-photo::after { background: linear-gradient(0deg,#0E1116 0%,rgba(14,17,22,0.55) 22%,rgba(14,17,22,0) 48%); }
+    .hero-text { flex: none; margin-top: -72px; padding: 0 var(--gutter) 48px; gap: 18px; }
+    .hero-name { display: block; }
+    .hero h1 { font-size: 31px; max-width: none; }
+    .hero .cta-row { order: 2; }
+    .hero .lead { order: 3; margin-top: 12px; }
+    .hero .proof { order: 4; margin-top: 0; }
     .cases { margin-top: 56px; }
     .cases .ba { height: auto; aspect-ratio: 4/3; }
     .cases .ba .tag { top: 14px; font-size: 10px; padding: 6px 10px; }
@@ -230,6 +242,7 @@
 <main>
 <section id="topo" class="hero">
   <div class="hero-text">
+    <span class="hero-name">Prof. Dr. Crisnicaw Veríssimo · UFG</span>
     <h1>Infiltração resinosa: aprenda a tratar <em>manchas brancas</em> com quem pesquisa a técnica na UFG</h1>
     <p class="lead">Prof. Dr. Crisnicaw Veríssimo, professor de Dentística da Universidade Federal de Goiás, ensina dentistas no curso de infiltração resinosa e na mentoria em resinas compostas.</p>
     <div class="cta-row">
