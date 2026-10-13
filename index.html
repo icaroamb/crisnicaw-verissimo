@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prof. Dr. Crisnicaw Veríssimo | Infiltração resinosa e resinas compostas</title>
+<meta name="description" content="Prof. Dr. Crisnicaw Veríssimo, professor de Dentística da UFG, ensina dentistas no curso de infiltração resinosa (apoio DMG Brasil Academy) e na mentoria em resinas compostas.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0E1116">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap">
+<style>
+  :root {
+    --ink: #0E1116;
+    --navy: #13243B;
+    --ivory: #F5F2EC;
+    --text: #1A1A1A;
+    --cta: #C65A2E;
+    --cta-hover: #AE4D25;
+    --cta-text: #FDFBF7;
+    --gutter: clamp(20px, 5vw, 72px);
+    --serif: Newsreader, Georgia, serif;
+    --sans: Figtree, system-ui, sans-serif;
+  }
+  html { scroll-behavior: smooth; }
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: var(--ink); color: var(--ivory); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: clip; }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; }
+  em { font-style: italic; }
+  .wrap { max-width: 1360px; margin: 0 auto; padding: 0 var(--gutter); }
+  .serif { font-family: var(--serif); }
+  .eyebrow { font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(245,242,236,0.6); }
+  .on-light .eyebrow { color: rgba(26,26,26,0.6); }
+  [id] { scroll-margin-top: 72px; }
+
+  /* Botões */
+  .btn { display: inline-flex; align-items: center; gap: 12px; background: var(--cta); color: var(--cta-text); padding: 19px 30px; border-radius: 2px; font-weight: 600; font-size: 16px; transition: background .2s; }
+  .btn:hover { background: var(--cta-hover); }
+  .btn-sm { padding: 12px 20px; font-size: 14px; }
+  .link-arrow { align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--ivory); font-weight: 600; font-size: 16px; transition: gap .2s; }
+  .link-arrow:hover { gap: 16px; }
+  .btn-outline { display: inline-flex; align-items: center; gap: 10px; border: 1px solid var(--text); color: var(--text); padding: 15px 24px; border-radius: 2px; font-weight: 600; font-size: 15px; white-space: nowrap; transition: background .2s, color .2s; }
+  .btn-outline:hover { background: var(--text); color: var(--ivory); }
+
+  /* Header */
+  .site-header { position: sticky; top: 0; z-index: 50; background: var(--ink); border-bottom: 1px solid rgba(245,242,236,0.12); }
+  .site-header .bar { height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .wordmark { font-family: var(--serif); font-size: 22px; letter-spacing: -0.01em; white-space: nowrap; }
+  .nav { display: flex; align-items: center; gap: 36px; font-size: 15px; }
+  .nav > a:not(.btn) { color: rgba(245,242,236,0.78); transition: color .2s; }
+  .nav > a:not(.btn):hover { color: var(--ivory); }
+  .menu-btn { display: none; background: none; border: 1px solid rgba(245,242,236,0.3); color: var(--ivory); font-family: var(--sans); font-size: 14px; padding: 0 16px; height: 44px; border-radius: 2px; cursor: pointer; }
+  .mobile-nav { display: none; flex-direction: column; padding: 8px var(--gutter) 24px; border-top: 1px solid rgba(245,242,236,0.12); background: var(--ink); }
+  .mobile-nav a { padding: 16px 0; border-bottom: 1px solid rgba(245,242,236,0.12); font-family: var(--serif); font-size: 24px; }
+  .mobile-nav a:last-child { border-bottom: 0; }
+
+  /* Hero */
+  .hero { display: flex; flex-wrap: wrap; align-items: stretch; }
+  .hero-text { flex: 1.45 1 560px; padding: clamp(40px,8vw,120px) clamp(20px,4vw,64px) clamp(40px,7vw,104px) max(var(--gutter), calc((100vw - 1360px) / 2 + 72px)); display: flex; flex-direction: column; justify-content: center; gap: clamp(24px,3vw,36px); position: relative; z-index: 2; }
+  .hero h1 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(34px,4.4vw,64px); line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance; max-width: 16ch; }
+  .lead { margin: 0; font-size: clamp(17px,1.35vw,19px); line-height: 1.55; color: rgba(245,242,236,0.78); max-width: 540px; text-wrap: pretty; }
+  .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; }
+  .cta-row .micro { font-size: 14px; color: rgba(245,242,236,0.6); }
+  .proof { margin: clamp(8px,2vw,24px) 0 0; padding-top: 20px; border-top: 1px solid rgba(245,242,236,0.14); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; line-height: 1.9; color: rgba(245,242,236,0.62); max-width: 560px; }
+  .hero-photo { flex: 1 1 380px; position: relative; min-height: clamp(420px,52vw,860px); }
+  .hero-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 18%; }
+  .hero-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg,#0E1116 0%,rgba(14,17,22,0) 28%), linear-gradient(0deg,#0E1116 0%,rgba(14,17,22,0) 22%); pointer-events: none; }
+
+  /* Credenciais */
+  .on-light { background: var(--ivory); color: var(--text); }
+  .creds { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; border-left: 1px solid rgba(26,26,26,0.18); border-right: 1px solid rgba(26,26,26,0.18); scrollbar-width: none; }
+  .creds::-webkit-scrollbar { display: none; }
+  .cred { flex: 1 0 240px; scroll-snap-align: start; padding: clamp(28px,3vw,44px) 28px; display: flex; flex-direction: column; gap: 18px; }
+  .cred + .cred { border-left: 1px solid rgba(26,26,26,0.18); }
+  .cred .num { font-size: 12px; letter-spacing: 0.16em; font-variant-numeric: tabular-nums; color: rgba(26,26,26,0.55); }
+  .cred .txt { font-family: var(--serif); font-size: clamp(19px,1.6vw,23px); line-height: 1.25; text-wrap: pretty; }
+
+  /* A técnica */
+  .tecnica { padding: clamp(72px,10vw,160px) 0 clamp(56px,8vw,120px); }
+  .tecnica .intro { display: flex; flex-wrap: wrap; gap: clamp(40px,6vw,96px); align-items: flex-start; }
+  .tecnica .intro > div:first-child { flex: 1.2 1 480px; display: flex; flex-direction: column; gap: 28px; }
+  .tecnica h2 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(38px,5.4vw,84px); line-height: 1; letter-spacing: -0.025em; text-wrap: balance; }
+  .tecnica .intro > div:last-child { flex: 1 1 400px; display: flex; flex-direction: column; gap: 40px; padding-top: clamp(0px,3vw,48px); }
+  .tecnica p { margin: 0; font-size: clamp(17px,1.35vw,19px); line-height: 1.6; color: rgba(245,242,236,0.8); text-wrap: pretty; }
+  .indic { display: flex; flex-direction: column; }
+  .indic .eyebrow { padding-bottom: 14px; }
+  .indic div { display: flex; gap: 20px; align-items: baseline; padding: 16px 0; border-top: 1px solid rgba(245,242,236,0.16); }
+  .indic div:last-child { border-bottom: 1px solid rgba(245,242,236,0.16); }
+  .indic .n { font-size: 12px; font-variant-numeric: tabular-nums; color: rgba(245,242,236,0.5); width: 24px; }
+  .indic .t { font-family: var(--serif); font-size: 21px; }
+  .note { margin: 0; font-size: 13px; color: rgba(245,242,236,0.55); }
+
+  /* Comparador antes/depois */
+  .cases { display: flex; flex-direction: column; gap: clamp(56px,7vw,112px); margin-top: clamp(72px,9vw,140px); }
+  .case { margin: 0; }
+  .ba { --p: 50%; position: relative; width: 100%; overflow: hidden; background: #000; user-select: none; -webkit-user-select: none; }
+  .cases .ba { height: min(56.25vw, 86vh); }
+  .ba img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .ba .before { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--p)) 0 0); }
+  .ba .tag { position: absolute; top: 24px; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; background: rgba(14,17,22,0.72); color: var(--ivory); padding: 8px 12px; pointer-events: none; }
+  .ba .tag.l { left: var(--gutter); }
+  .ba .tag.r { right: var(--gutter); }
+  .ba .handle { position: absolute; top: 0; bottom: 0; left: var(--p); width: 1px; background: var(--ivory); pointer-events: none; }
+  .ba .handle span { position: absolute; top: 50%; left: 0; transform: translate(-50%,-50%); width: 56px; height: 56px; border-radius: 50%; background: var(--ivory); color: var(--ink); display: flex; align-items: center; justify-content: center; font-size: 20px; letter-spacing: 4px; box-shadow: 0 4px 24px rgba(0,0,0,0.4); }
+  .ba input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; touch-action: pan-y; }
+  .ba.small .tag { top: 12px; font-size: 10px; padding: 6px 10px; }
+  .ba.small .tag.l { left: 12px; }
+  .ba.small .tag.r { right: 12px; }
+  .ba.small .handle span { width: 44px; height: 44px; font-size: 17px; letter-spacing: 3px; }
+  .case figcaption { max-width: 1360px; margin: 0 auto; padding: 20px var(--gutter) 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 24px; }
+  .case .label { font-family: var(--serif); font-style: italic; font-size: 22px; }
+  .credit { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; line-height: 1.7; color: rgba(245,242,236,0.62); }
+  .case-nav { display: none; align-items: center; gap: 8px; }
+  .case-nav button { width: 44px; height: 44px; border: 1px solid rgba(245,242,236,0.3); background: none; color: var(--ivory); font-size: 18px; border-radius: 2px; cursor: pointer; }
+  .case-nav .count { font-size: 13px; font-variant-numeric: tabular-nums; letter-spacing: 0.08em; color: rgba(245,242,236,0.7); min-width: 52px; text-align: center; }
+  .note-wrap { padding-top: clamp(40px,5vw,72px); }
+
+  /* Ofertas */
+  .ofertas { background: var(--navy); padding: clamp(72px,10vw,160px) 0; }
+  .ofertas .wrap { display: flex; flex-wrap: wrap; gap: clamp(56px,7vw,112px); align-items: flex-start; }
+  .curso { flex: 1.7 1 600px; display: flex; flex-wrap: wrap; gap: clamp(28px,4vw,56px); align-items: flex-end; }
+  .curso .photo { flex: 1 1 300px; aspect-ratio: 4/5; overflow: hidden; background: var(--ink); }
+  .curso .photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
+  .curso .body { flex: 1 1 300px; display: flex; flex-direction: column; gap: 28px; padding-bottom: 8px; }
+  .curso h2 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(36px,4vw,58px); line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance; }
+  .seal { align-self: flex-start; border: 1px solid rgba(245,242,236,0.4); padding: 8px 12px; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; }
+  .curso p, .mentoria p { margin: 0; font-size: 18px; line-height: 1.6; color: rgba(245,242,236,0.8); text-wrap: pretty; }
+  .mentoria p { font-size: 17px; }
+  .curso .btn { align-self: flex-start; }
+  .mentoria { flex: 1 1 340px; scroll-margin-top: 96px; display: flex; flex-direction: column; gap: 24px; margin-top: clamp(0px,9vw,180px); padding-top: 28px; border-top: 1px solid rgba(245,242,236,0.2); }
+  .mentoria .ba { aspect-ratio: 16/10; }
+  .mentoria .credit { font-size: 11px; }
+  .mentoria h3 { margin: 8px 0 0; font-family: var(--serif); font-weight: 300; font-size: clamp(28px,2.6vw,38px); line-height: 1.08; letter-spacing: -0.015em; }
+
+  /* Sobre */
+  .sobre { padding: clamp(72px,10vw,160px) 0; }
+  .sobre .wrap { display: flex; flex-wrap: wrap; gap: clamp(40px,7vw,120px); align-items: center; }
+  .sobre .photo { flex: 1 1 340px; max-width: 520px; aspect-ratio: 3/4; overflow: hidden; background: #E6E1D8; }
+  .sobre .photo img { width: 100%; height: 100%; object-fit: cover; }
+  .sobre .body { flex: 1.35 1 440px; display: flex; flex-direction: column; gap: 32px; }
+  .sobre h2 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(40px,5.6vw,88px); line-height: 0.98; letter-spacing: -0.03em; }
+  .sobre p { margin: 0; padding-top: 28px; border-top: 1px solid rgba(26,26,26,0.18); font-family: var(--serif); font-size: clamp(19px,1.7vw,24px); line-height: 1.5; text-wrap: pretty; }
+
+  /* FAQ */
+  .faq { padding: clamp(72px,10vw,150px) 0; }
+  .faq .wrap { display: flex; flex-wrap: wrap; gap: clamp(32px,6vw,96px); align-items: flex-start; }
+  .faq h2 { flex: 1 1 300px; margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(34px,3.8vw,56px); line-height: 1.02; letter-spacing: -0.02em; }
+  .faq-list { flex: 1.6 1 480px; border-top: 1px solid rgba(245,242,236,0.18); }
+  .faq-item { border-bottom: 1px solid rgba(245,242,236,0.18); }
+  .faq-item button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 26px 0; background: none; border: none; color: var(--ivory); text-align: left; cursor: pointer; font-family: var(--serif); font-size: clamp(20px,1.8vw,25px); }
+  .faq-item .sign { font-family: var(--sans); font-size: 22px; font-weight: 300; flex-shrink: 0; width: 24px; text-align: center; }
+  .faq-item p { margin: 0; padding: 0 48px 28px 0; font-size: 17px; line-height: 1.6; color: rgba(245,242,236,0.78); text-wrap: pretty; }
+  .faq-item p[hidden] { display: none; }
+
+  /* Pacientes */
+  .pacientes .wrap { padding-top: clamp(32px,4vw,48px); padding-bottom: clamp(32px,4vw,48px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px 40px; }
+  .pacientes p { margin: 0; font-family: var(--serif); font-size: clamp(20px,2vw,26px); line-height: 1.3; text-wrap: pretty; }
+
+  /* CTA final */
+  .final { background: var(--navy); display: flex; flex-wrap: wrap; align-items: stretch; }
+  .final .text { flex: 1.4 1 520px; padding: clamp(72px,10vw,160px) var(--gutter) clamp(72px,10vw,160px) max(var(--gutter), calc((100vw - 1360px) / 2 + 72px)); display: flex; flex-direction: column; justify-content: center; gap: 40px; }
+  .final h2 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(38px,5vw,76px); line-height: 1.02; letter-spacing: -0.025em; max-width: 14ch; text-wrap: balance; }
+  .final .btn { align-self: flex-start; }
+  .final .photo { flex: 1 1 340px; position: relative; min-height: clamp(380px,44vw,720px); }
+  .final .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+
+  /* Rodapé */
+  .site-footer { border-top: 1px solid rgba(245,242,236,0.1); }
+  .site-footer .wrap { padding-top: clamp(40px,5vw,64px); padding-bottom: clamp(40px,5vw,64px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 28px 48px; }
+  .site-footer .id { display: flex; flex-direction: column; gap: 14px; }
+  .site-footer .id small { font-size: 13px; line-height: 1.7; color: rgba(245,242,236,0.62); }
+  .site-footer .links { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px; font-size: 14px; }
+  .site-footer .links a { border-bottom: 1px solid rgba(245,242,236,0.3); padding-bottom: 3px; transition: border-color .2s; }
+  .site-footer .links a:hover { border-bottom-color: var(--ivory); }
+  .badge { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(245,242,236,0.55); border: 1px solid rgba(245,242,236,0.2); padding: 6px 10px; }
+
+  /* Mobile fixo */
+  .mobile-bar, .wa-float, .bar-spacer { display: none; }
+
+  @media (max-width: 819px) {
+    .nav { display: none; }
+    .menu-btn { display: block; }
+    .site-header.open .mobile-nav { display: flex; }
+    .cases { margin-top: 56px; }
+    .cases .ba { height: auto; aspect-ratio: 4/3; }
+    .cases .ba .tag { top: 14px; font-size: 10px; padding: 6px 10px; }
+    .cases .ba .tag.l { left: 14px; }
+    .cases .ba .tag.r { right: 14px; }
+    .cases .ba .handle span { width: 44px; height: 44px; font-size: 17px; letter-spacing: 3px; }
+    .case:not(.is-active) { display: none; }
+    .case figcaption { padding-top: 16px; flex-direction: column; align-items: stretch; gap: 16px; }
+    .case .top { display: flex; justify-content: space-between; align-items: center; }
+    .case .label { font-size: 20px; }
+    .case .credit { font-size: 11px; }
+    .case-nav { display: flex; }
+    .bar-spacer { display: block; height: 76px; }
+    .mobile-bar { display: block; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; background: var(--ink); border-top: 1px solid rgba(245,242,236,0.14); padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); }
+    .mobile-bar a { display: flex; justify-content: center; align-items: center; gap: 10px; height: 52px; background: var(--cta); color: var(--cta-text); border-radius: 2px; font-weight: 600; font-size: 16px; }
+    .wa-float { display: flex; position: fixed; right: 16px; bottom: calc(92px + env(safe-area-inset-bottom)); z-index: 61; width: 56px; height: 56px; border-radius: 50%; background: #25D366; color: #fff; align-items: center; justify-content: center; box-shadow: 0 6px 20px rgba(0,0,0,0.35); }
+  }
+  @media (min-width: 820px) {
+    .case .top { display: contents; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="wrap bar">
+    <a href="#topo" class="wordmark">Prof. Crisnicaw Veríssimo</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#tecnica">A técnica</a>
+      <a href="#curso">Curso</a>
+      <a href="#mentoria">Mentoria</a>
+      <a href="#sobre">Sobre</a>
+      <a class="btn btn-sm" href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20infiltra%C3%A7%C3%A3o%20resinosa!" target="_blank" rel="noopener">Quero saber do curso</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Menu">
+    <a href="#tecnica">A técnica</a>
+    <a href="#curso">Curso</a>
+    <a href="#mentoria">Mentoria</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+</header>
+
+<main>
+<section id="topo" class="hero">
+  <div class="hero-text">
+    <h1>Infiltração resinosa: aprenda a tratar <em>manchas brancas</em> com quem pesquisa a técnica na UFG</h1>
+    <p class="lead">Prof. Dr. Crisnicaw Veríssimo, professor de Dentística da Universidade Federal de Goiás, ensina dentistas no curso de infiltração resinosa e na mentoria em resinas compostas.</p>
+    <div class="cta-row">
+      <a class="btn" href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20infiltra%C3%A7%C3%A3o%20resinosa!" target="_blank" rel="noopener">Quero saber do curso <span aria-hidden="true">→</span></a>
+      <span class="micro">Resposta pelo WhatsApp</span>
+    </div>
+    <p class="proof">Mestre e Doutor em Odontologia · Professor da UFG · 21 mil seguidores no Instagram</p>
+  </div>
+  <div class="hero-photo">
+    <img src="assets/crisnicaw-retrato.jpg" alt="Prof. Dr. Crisnicaw Veríssimo" width="673" height="855" fetchpriority="high">
+  </div>
+</section>
+
+<section class="on-light" aria-label="Credenciais">
+  <div class="wrap">
+    <div class="creds">
+      <div class="cred"><span class="num">01</span><span class="txt">Mestre e Doutor pela UFU</span></div>
+      <div class="cred"><span class="num">02</span><span class="txt">1 ano de pesquisa na University of Tennessee (EUA)</span></div>
+      <div class="cred"><span class="num">03</span><span class="txt">Professor Adjunto de Dentística na UFG</span></div>
+      <div class="cred"><span class="num">04</span><span class="txt">Prêmio Hatton – SBPqO 2015</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="tecnica" class="tecnica">
+  <div class="wrap intro">
+    <div>
+      <span class="eyebrow">A técnica</span>
+      <h2>Manchas brancas tratadas de forma <em>microinvasiva</em></h2>
+    </div>
+    <div>
+      <p>A infiltração resinosa usa uma resina de baixíssima viscosidade que penetra no esmalte desmineralizado. Depois de polimerizada, ela devolve ao esmalte uma aparência próxima à do esmalte sadio, e a mancha branca deixa de aparecer.</p>
+      <div class="indic">
+        <span class="eyebrow">Indicações</span>
+        <div><span class="n">01</span><span class="t">Manchas brancas pós-ortodontia</span></div>
+        <div><span class="n">02</span><span class="t">Lesões iniciais de cárie, sem cavidade</span></div>
+        <div><span class="n">03</span><span class="t">Fluorose</span></div>
+        <div><span class="n">04</span><span class="t">Hipomineralização do esmalte</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cases" id="cases">
+    <figure class="case is-active">
+      <div class="ba">
+        <img src="assets/caso-02-depois.jpg" alt="Caso 02, depois" draggable="false" loading="lazy" width="1138" height="640">
+        <div class="before"><img src="assets/caso-02-antes.jpg" alt="Caso 02, antes" draggable="false" loading="lazy" width="1138" height="640"></div>
+        <span class="tag l">Antes</span><span class="tag r">Depois</span>
+        <div class="handle"><span aria-hidden="true">‹›</span></div>
+        <input type="range" min="0" max="100" step="0.5" value="50" aria-label="Arraste para comparar antes e depois">
+      </div>
+      <figcaption>
+        <div class="top">
+          <span class="label">Caso 02</span>
+          <div class="case-nav">
+            <button type="button" data-step="-1" aria-label="Caso anterior">←</button>
+            <span class="count">01 / 02</span>
+            <button type="button" data-step="1" aria-label="Próximo caso">→</button>
+          </div>
+        </div>
+        <span class="credit">Caso clínico · Prof. Dr. Crisnicaw Veríssimo · CRO-GO 00000</span>
+      </figcaption>
+    </figure>
+
+    <figure class="case">
+      <div class="ba">
+        <img src="assets/caso-04-depois.jpg" alt="Caso 04, depois" draggable="false" loading="lazy" width="1138" height="640">
+        <div class="before"><img src="assets/caso-04-antes.jpg" alt="Caso 04, antes" draggable="false" loading="lazy" width="1138" height="640"></div>
+        <span class="tag l">Antes</span><span class="tag r">Depois</span>
+        <div class="handle"><span aria-hidden="true">‹›</span></div>
+        <input type="range" min="0" max="100" step="0.5" value="50" aria-label="Arraste para comparar antes e depois">
+      </div>
+      <figcaption>
+        <div class="top">
+          <span class="label">Caso 04</span>
+          <div class="case-nav">
+            <button type="button" data-step="-1" aria-label="Caso anterior">←</button>
+            <span class="count">02 / 02</span>
+            <button type="button" data-step="1" aria-label="Próximo caso">→</button>
+          </div>
+        </div>
+        <span class="credit">Caso clínico · Prof. Dr. Crisnicaw Veríssimo · CRO-GO 00000</span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="wrap note-wrap">
+    <p class="note">Resultados variam de caso para caso.</p>
+  </div>
+</section>
+
+<section id="curso" class="ofertas">
+  <div class="wrap">
+    <article class="curso">
+      <div class="photo">
+        <img src="assets/crisnicaw-curso-pratica.jpg" alt="Prof. Crisnicaw orientando uma aluna em atendimento clínico durante o curso" loading="lazy" width="655" height="856">
+      </div>
+      <div class="body">
+        <span class="eyebrow">Curso</span>
+        <h2>Curso de Infiltração Resinosa</h2>
+        <span class="seal">Apoio: DMG Brasil Academy</span>
+        <p>Do diagnóstico ao acabamento: o protocolo da infiltração resinosa explicado por quem estuda a técnica na pós-graduação da UFG.</p>
+        <a class="btn" href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20infiltra%C3%A7%C3%A3o%20resinosa!" target="_blank" rel="noopener">Quero saber do curso <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
+    <article id="mentoria" class="mentoria">
+      <span class="eyebrow">Mentoria</span>
+      <div class="ba small">
+        <img src="assets/caso-01-depois.jpg" alt="Caso 01, depois" draggable="false" loading="lazy" width="1138" height="640">
+        <div class="before"><img src="assets/caso-01-antes.jpg" alt="Caso 01, antes" draggable="false" loading="lazy" width="1138" height="640"></div>
+        <span class="tag l">Antes</span><span class="tag r">Depois</span>
+        <div class="handle"><span aria-hidden="true">‹›</span></div>
+        <input type="range" min="0" max="100" step="0.5" value="50" aria-label="Arraste para comparar antes e depois">
+      </div>
+      <span class="credit">Caso clínico · Prof. Dr. Crisnicaw Veríssimo · CRO-GO 00000</span>
+      <h3>Mentoria em Resinas Compostas</h3>
+      <p>Acompanhamento direto com o professor para evoluir nas suas restaurações em resina composta.</p>
+      <a class="link-arrow" href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20mentoria%20em%20resina%20composta!" target="_blank" rel="noopener">Quero saber da mentoria <span aria-hidden="true">→</span></a>
+    </article>
+  </div>
+</section>
+
+<section id="sobre" class="sobre on-light">
+  <div class="wrap">
+    <div class="photo">
+      <img src="assets/crisnicaw-aula-ufg.jpg" alt="Prof. Crisnicaw Veríssimo em aula na UFG" loading="lazy" width="387" height="516">
+    </div>
+    <div class="body">
+      <span class="eyebrow">Sobre</span>
+      <h2>Quem pesquisa, <em>ensina</em></h2>
+      <p>Graduado, mestre e doutor em Odontologia pela Universidade Federal de Uberlândia, com um ano de pesquisa na University of Tennessee (EUA) durante o doutorado e pós-doutorado na UFU. Hoje é Professor Adjunto da Faculdade de Odontologia da UFG e professor do Programa de Pós-graduação em Odontologia, onde orienta pesquisas de mestrado e doutorado sobre infiltração resinosa.</p>
+    </div>
+  </div>
+</section>
+
+<section class="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <h2 id="faq-title">Perguntas frequentes</h2>
+    <div class="faq-list" id="faq">
+      <div class="faq-item">
+        <button type="button" aria-expanded="true"><span>O que a infiltração resinosa trata?</span><span class="sign" aria-hidden="true">–</span></button>
+        <p>Manchas brancas no esmalte, como as que aparecem depois do aparelho ortodôntico, lesões iniciais de cárie sem cavidade, fluorose e hipomineralização. A indicação depende do diagnóstico de cada caso.</p>
+      </div>
+      <div class="faq-item">
+        <button type="button" aria-expanded="false"><span>Qual material é usado?</span><span class="sign" aria-hidden="true">+</span></button>
+        <p hidden>O infiltrante resinoso Icon, da DMG.</p>
+      </div>
+      <div class="faq-item">
+        <button type="button" aria-expanded="false"><span>Quem pode fazer o curso?</span><span class="sign" aria-hidden="true">+</span></button>
+        <p hidden>Cirurgiões-dentistas.</p>
+      </div>
+      <div class="faq-item">
+        <button type="button" aria-expanded="false"><span>Quando é a próxima turma e qual o valor?</span><span class="sign" aria-hidden="true">+</span></button>
+        <p hidden>Datas, vagas e valores da próxima turma são passados pelo WhatsApp.</p>
+      </div>
+      <div class="faq-item">
+        <button type="button" aria-expanded="false"><span>Como funciona a mentoria?</span><span class="sign" aria-hidden="true">+</span></button>
+        <p hidden>Formato e duração são passados pelo WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pacientes on-light" aria-label="Pacientes">
+  <div class="wrap">
+    <p>Tem manchas brancas nos dentes? Você pode ser paciente nos cursos.</p>
+    <a class="btn-outline" href="https://wa.me/5562998706830?text=Quero%20ser%20paciente%20nos%20cursos!" target="_blank" rel="noopener">Quero ser paciente</a>
+  </div>
+</section>
+
+<section class="final">
+  <div class="text">
+    <h2>Aprenda a técnica com quem a estuda na <em>universidade</em>.</h2>
+    <a class="btn" href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20infiltra%C3%A7%C3%A3o%20resinosa!" target="_blank" rel="noopener">Quero saber do curso <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="photo">
+    <img src="assets/crisnicaw-atendimento-lupa.jpg" alt="Prof. Crisnicaw em atendimento clínico com lupas de magnificação" loading="lazy" width="671" height="897">
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="id">
+      <span class="wordmark">Prof. Crisnicaw Veríssimo</span>
+      <small>Prof. Dr. Crisnicaw Veríssimo · Cirurgião-dentista · CRO-GO 00000 · Goiânia - GO</small>
+    </div>
+    <div class="links">
+      <a href="https://www.instagram.com/crisnicaw/" target="_blank" rel="noopener">Instagram @crisnicaw</a>
+      <a href="https://wa.me/5562998706830" target="_blank" rel="noopener">WhatsApp (62) 99870-6830</a>
+      <span class="badge">Proposta de layout · não é o site oficial</span>
+    </div>
+  </div>
+</footer>
+
+<div class="bar-spacer"></div>
+<div class="mobile-bar">
+  <a href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20infiltra%C3%A7%C3%A3o%20resinosa!" target="_blank" rel="noopener">Quero saber do curso <span aria-hidden="true">→</span></a>
+</div>
+<a class="wa-float" href="https://wa.me/5562998706830?text=Quero%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20infiltra%C3%A7%C3%A3o%20resinosa!" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<script>
+  // Menu mobile
+  const header = document.getElementById('header');
+  const menuBtn = document.getElementById('menuBtn');
+  const setMenu = (open) => {
+    header.classList.toggle('open', open);
+    menuBtn.textContent = open ? 'Fechar' : 'Menu';
+    menuBtn.setAttribute('aria-expanded', open);
+  };
+  menuBtn.addEventListener('click', () => setMenu(!header.classList.contains('open')));
+  document.querySelectorAll('#mobileNav a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // Comparadores antes/depois
+  document.querySelectorAll('.ba input').forEach(input => {
+    const ba = input.closest('.ba');
+    const update = () => ba.style.setProperty('--p', input.value + '%');
+    input.addEventListener('input', update);
+    update();
+  });
+
+  // Carrossel de casos (mobile)
+  const cases = [...document.querySelectorAll('#cases .case')];
+  let current = 0;
+  document.querySelectorAll('#cases .case-nav button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      cases[current].classList.remove('is-active');
+      current = (current + Number(btn.dataset.step) + cases.length) % cases.length;
+      cases[current].classList.add('is-active');
+    });
+  });
+
+  // FAQ: um item aberto por vez
+  const items = [...document.querySelectorAll('#faq .faq-item')];
+  items.forEach(item => {
+    item.querySelector('button').addEventListener('click', () => {
+      const willOpen = item.querySelector('p').hidden;
+      items.forEach(other => {
+        const open = other === item && willOpen;
+        other.querySelector('p').hidden = !open;
+        other.querySelector('button').setAttribute('aria-expanded', open);
+        other.querySelector('.sign').textContent = open ? '–' : '+';
+      });
+    });
+  });
+</script>
+</body>
+</html>
